@@ -1,6 +1,6 @@
 # InfoMaxCutOut
 
-This is a Data Augmentation method designed for Dermatology Classification. Our tech report describing it is under review at ISBI 2024.
+This is a Data Augmentation method designed for Dermatology Classification to improve robustness to distributional shifts. Our tech report describing it is under review at ISBI 2024.
 
 To run our method, you must have access to the Fitzpatrick17k dataset. First build the Dockerfile:
 
@@ -24,6 +24,8 @@ If you would like to cite us, the bibtex is as follows.
 
 This code uses bits and pieces from the following repositories:
 
-https://github.com/milesial/Pytorch-UNet
+https://github.com/milesial/Pytorch-UNet (UNet Implementation)
 
-https://github.com/WangYueFt/dgcnn
+https://github.com/WangYueFt/dgcnn (Basic training code)
+
+https://github.com/conceptofmind/PaLM/ (StableAdamW)
