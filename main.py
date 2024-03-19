@@ -168,7 +168,8 @@ def train(args, io):
                 if args.cutmix:
                     data,labels = cutmix(data.detach(),labels.detach())
 
-                yseg,iicloss = mask_model(data)
+                yseg,mask,iicloss = mask_model(data)
+		yseg = yseg*mask
                 
                 xBimodal = (data * yseg) + (1-yseg)*noise
 
