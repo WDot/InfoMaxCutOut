@@ -1,6 +1,6 @@
 # InfoMaxCutOut
 
-This is a Data Augmentation method designed for Dermatology Classification to improve robustness to distributional shifts. Our tech report describing it is under review at AMIA Symposium 2024.
+This is a Data Augmentation method designed for Dermatology Classification to improve robustness to distributional shifts. Our tech report describing it has been accepted at AMIA Symposium 2024.
 
 To run our method, you must have access to the Fitzpatrick17k dataset. First build the Dockerfile:
 
@@ -17,8 +17,8 @@ If you would like to cite us, the bibtex is as follows.
     @inproceedings{
     infomaxcutout,
     title={Robust Visual Identification of Under-resourced Dermatological Diagnoses with Classifier-Steered Background Masking},
-    author={Miguel Dominguez},
-    booktitle={Under review at the American Medical Informatics Association Symposium 2024},
+    author={Miguel Dominguez, Julie Ryan Wolf, Paritosh Prasad, Wendemagegn Enbiale, Michael Gottlieb, Carl T. Berdahl, Art Papier},
+    booktitle={American Medical Informatics Association Symposium 2024},
     year={2024}
     }
 
